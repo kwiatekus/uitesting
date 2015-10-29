@@ -7,6 +7,7 @@ module.exports = function(grunt) {
     nightwatch: {
       options: {
         standalone: true,
+        custom_commands_path: "commands",
         src_folders: ['tests'],
         output_folder: 'report'
       }

@@ -1,7 +1,6 @@
-#STEP1
+#STEP2
 
 Run follwong commands :
 ```
-npm install
 grunt nightwatch
 ```
