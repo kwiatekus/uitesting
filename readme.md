@@ -1,6 +1,12 @@
-#STEP2
+#STEP3
 
 Run follwong commands :
 ```
-grunt nightwatch
+grunt nightwatch:smoke
+grunt nightwatch:integration
+```
+
+Bonus : (realizing problem with test infra)
+```
+grunt nightwatch:safari
 ```

@@ -10,6 +10,22 @@ module.exports = function(grunt) {
         custom_commands_path: "commands",
         src_folders: ['tests'],
         output_folder: 'report'
+      },
+      "smoke":
+      {
+        src_folders: ['tests/1_smoke'],
+      },
+      
+      "integration":
+      {
+        src_folders: ['tests/2_integration'],
+      },
+      
+      "safari":
+      {
+          desiredCapabilities: {
+              browserName: "safari",
+          }
       }
     }
     
