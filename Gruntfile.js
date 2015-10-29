@@ -40,6 +40,37 @@ module.exports = function(grunt) {
               version: "6",
               platform: "Windows XP"
         }
+      },
+      
+      "saucelabs_ie_xp":
+      {
+        src_folders: ['tests/2_integration'],
+        standalone : false,
+        selenium_host: "ondemand.saucelabs.com",
+        selenium_port: 80,
+        username: "saucelabs_username",
+        access_key: "saucelabs_apikey",
+        desiredCapabilities: {
+              browserName: "Internet Explorer",
+              version: "6",
+              platform: "Windows XP"
+        }
+      },
+      
+      "saucelabs_iphone":
+      {
+        src_folders: ['tests/2_integration'],
+        custom_commands_path: "commands_iphone",
+        standalone : false,
+        selenium_host: "ondemand.saucelabs.com",
+        selenium_port: 80,
+        username: "saucelabs_username",
+        access_key: "saucelabs_apikey",
+        desiredCapabilities: {
+              browserName: "iphone",
+              version: "6", 
+              deviceOrientation: 'portrait'
+        }
       }
     }
     

@@ -1,8 +1,10 @@
-#STEP4
+#STEP5
 
-Get a free trial from saucelabs.com
-Configure your username and apikey in the "saucelabs" configuration part of grunt-nightwatch 
+
 Run follwong commands :
 ```
-grunt nightwatch:saucelabs
+grunt nightwatch:saucelabs_ie_xp
+grunt nightwatch:saucelabs_iphone
 ```
+
+and check the tests screencasts for your tests at saucelabs.com
